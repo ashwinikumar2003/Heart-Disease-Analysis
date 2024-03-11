@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
-heart = pd.read_csv(r"C:\Users\Ashwini\Downloads\heart-disease.csv")
+heart = pd.read_csv(r"heart-disease.csv")
 st.write('''
 # Simple Heart Disease Classifier
 this app classifies heart disease based upon certain parameters
